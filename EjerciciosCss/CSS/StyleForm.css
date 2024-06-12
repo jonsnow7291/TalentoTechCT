@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(173, 171, 143);
+}
+
+form {
+    background-color: rgb(197, 136, 60);
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    border-radius: 20Px;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: none;
+}
+
+a {
+    color: azure;
+}
+
+input:hover {
+    transition: 3s;
+    background-color: bisque;
+}

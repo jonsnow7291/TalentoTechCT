@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <h1>Formulario de registro </h1>
+    <form action="" method="get">
+        <label for="Nombre">Nombre</label>
+        <input  maxlength="50" name="Nombre"type="text" placeholder="Inprese su nombre">
+        <label for="Apellido">Apellidos</label>
+        <input name="Apellido"type="text" placeholder="Ingrese aqui su apellido">
+        <br>
+        <label for="Sexo">Sexo: </label>
+        <label for="masculino">masculino </label>
+        <input type="radio" name="Masculino" value="masculino">
+        <label for="Femenino">femenino </label>
+        <input type="radio" name="Femenino" value="Femenino">
+        <br>
+        <label for="Email">Email</label>
+        <input type="text" placeholder="Ingrese su Email">
+        <br>
+        <label for="Poblacion">Tipo de población</label>
+        <select>
+            <option>--seleciona tu tipo de población--</option>
+            <option>Alicante  </option>
+            <option>Madrid </option>
+            <option>Sevilla </option>
+            <option>Valencia.</option>
+        </select>
+        <br>
+            <label for="Description">Descripción</label>
+            <br>
+            <textarea name="Description" cols="34" rows="4"></textarea>
+        <br>
+        <p> 
+            Declaro haber leido y aceptar las
+            condiciones generales del programa y la normativa sobre protección de datos
+            <input type="checkbox" checked>
+        </p>
+        <p> 
+            Deseo recibir información sobre ofertas y servicios
+            <input type="checkbox" checked>
+        </p>
+        <input type="submit" value="Registrarse">
+    </form>
+</body>
+</html>
