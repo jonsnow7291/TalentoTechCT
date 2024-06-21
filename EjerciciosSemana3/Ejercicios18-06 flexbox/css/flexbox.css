@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+article{
+    padding: 10px;
+    margin:10px;
+    color: rgb(71, 67, 75);
+    background-color: aliceblue;
+    flex: 200px;
+}
+.contenedor{
+    display: flex;
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "soyLaFuente"; 
+    src:url("../chickens_lovers/Chickens\ Lovers.otf");
+}
+
+
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-family: soyLaFuente;
+ }
+
