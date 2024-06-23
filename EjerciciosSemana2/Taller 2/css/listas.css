@@ -1,0 +1,46 @@
+.cabecera ul {
+    list-style-type: none;
+}
+
+.cabecera li{
+    display: inline;
+    padding: 20px;
+    bottom:1%;
+}
+
+.indice ul ol li{
+    list-style-type: none;
+    background-color: antiquewhite;
+
+}
+.navigationPanel ol {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigationPanel ul {
+    list-style-type: none;
+    text-align: center;
+}
+.contList{
+    margin: 5%;
+}
+
+.contList h3{
+    color: rgb(82, 17, 17);
+}
+
+.cont{
+    margin:1%;
+    text-align: center;
+}
+.cont p{
+    color: rgb(153, 15, 15);
+    padding: 1%;
+}
+.cont li {
+    float: inline-start;
+    display:inline;
+}
+
+

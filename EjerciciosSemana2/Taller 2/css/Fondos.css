@@ -1,0 +1,25 @@
+body{
+     background-image:url("../IMG/FondoBody.jpg");
+}
+
+.cabecera{
+    background-image: url("../IMG/ImageContent.jpg");
+    opacity: 0.8;
+}
+.indice{
+    background-image: url("../IMG/ImageContent.jpg");
+    opacity: 0.6;
+}
+
+.principal{
+    background-image: url("../IMG/ImageContent.jpg");
+    opacity: 0.8;
+}
+.principal h1{
+    color: rgb(206, 69, 69);
+}
+
+#pDPagina{
+    background-image: url("../IMG/ImageContent.jpg");
+    opacity: 0.8;
+}

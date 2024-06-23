@@ -1,0 +1,22 @@
+
+.cabecera a {
+    display: inline-flex;
+    text-decoration: none;
+}
+.indice li > a {
+    text-decoration: none;
+}
+li > a:link{
+    color:brown
+}
+.cabecera li > a:visited{
+    color:brown
+}
+
+.indice li > a:visited{
+    color :rgb(255, 8, 20);
+}
+li > a:hover{
+    color: rgb(224, 128, 84);
+    text-transform: uppercase;
+}
