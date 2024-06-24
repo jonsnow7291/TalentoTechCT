@@ -1,0 +1,37 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+.cabeza{
+    border: 1px solid;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 98%;
+    height: 10%;
+}
+
+.pNavigation{
+    border: 1px solid;
+    position:absolute;
+    left: 1%;
+    bottom: 2%;
+    height: 85%;
+    width:20%;
+}
+
+.principal{
+    border: 1px solid;
+    position: relative;
+    top : 80px;
+    left: 21.9%;
+    width: 77.1%;
+    height: 413px;
+}
+.pDPagina{
+    position: absolute;
+    border: 1 px solid;
+    
+}
