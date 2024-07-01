@@ -1,0 +1,29 @@
+body{
+    
+}
+
+.cabeza
+{
+    background: linear-gradient(to top, rgb(11, 127, 205), rgb(124, 205, 227));
+}
+
+.principal
+{
+    background:radial-gradient( rgb(11, 127, 205), rgb(124, 205, 227));
+}
+
+.pNavigation
+{
+    background:linear-gradient(to bottom, rgb(11, 127, 205), rgb(124, 205, 227));
+}
+.pNavigation form{
+    background-color: rgb(129, 156, 183);
+    width: 80%;
+    margin-left: 12%;
+    border-radius: 5px;
+}   
+.pDPagina
+{
+    background: linear-gradient(to right,rgb(11, 127, 205), rgb(124, 205, 227));
+}
+

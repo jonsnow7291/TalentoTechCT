@@ -1,0 +1,32 @@
+.pNavigation form {
+    text-align: center;
+}
+.pNavigation  li {
+    margin: 5%;
+    list-style-type:none;
+    text-decoration: none;
+}
+.pNavigation a{
+    text-decoration: none;
+    text-align: center;
+}
+.cabeza ul{
+    list-style-type: none;
+}
+.cabeza li{
+    display:inline;
+}
+.cabeza  a{
+    text-decoration: none;
+    text-align: center;
+    padding: 2%;
+    margin-left: 10%;
+}
+.cabeza a:hover{
+    background-color: bisque;
+}
+.pDPagina li{
+    list-style-type:none;
+    display: inline-block;
+    padding-left: 20px;
+}

@@ -1,0 +1,11 @@
+.pDPagina img{
+    position: absolute;
+    height: 98px;
+    border-radius: 10px;
+}
+.principal img{
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    border-radius: 0px 10px 10px 0px;
+}

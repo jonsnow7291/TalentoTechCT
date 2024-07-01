@@ -5,33 +5,38 @@
 }
 
 .cabeza{
-    border: 1px solid;
+
     position: absolute;
     top: 1%;
     right: 1%;
     width: 98%;
     height: 10%;
+    border-radius: 13px;
 }
 
 .pNavigation{
-    border: 1px solid;
     position:absolute;
     left: 1%;
     bottom: 2%;
     height: 85%;
     width:20%;
+    border-radius: 13px;
 }
 
 .principal{
-    border: 1px solid;
     position: relative;
     top : 80px;
     left: 21.9%;
     width: 77.1%;
     height: 413px;
+    border-radius: 13px;
 }
+
 .pDPagina{
     position: absolute;
-    border: 1 px solid;
-    
+    bottom: 2%;
+    right: 1%;
+    height: 16%;
+    width: 77.1%;
+    border-radius: 13px;
 }
