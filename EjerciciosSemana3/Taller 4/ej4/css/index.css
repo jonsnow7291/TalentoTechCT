@@ -1,0 +1,27 @@
+body{
+    margin: 0 px;
+    padding: 0 px;
+    font-family: Verdana, serif;
+}
+header{
+    padding: 30px;
+    background: #333334;
+    color: #FFFF;
+    font-size: 3em;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #919191;
+}
+nav a{
+    color: #555;
+    text-decoration: none;
+    padding: 2%;
+}
+
+nav a:hover{
+    background: #555;
+    color: #CCCC;
+}

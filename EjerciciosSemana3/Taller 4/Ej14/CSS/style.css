@@ -1,0 +1,296 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, serif;
+  background: orangered;
+}
+
+header {
+  padding: 5px;
+  margin-top: 5px;
+  background: #FFD5BF;
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: lighter;
+
+}
+
+
+
+
+/* I - logo y titulo*/
+
+
+div.m1 {
+  width: 400px;
+  margin: 6px auto;
+  margin-left: 10px;
+  color: black;
+  text-align: center; /* Esto centra el contenido del texto dentro de 'card' */
+}
+
+div.m1 img.logoP {
+  float: left;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.imagen {
+  display: block;
+  /* Hace que la imagen se comporte como un bloque para permitir el centrado automático */
+  margin: 0 auto;
+  /* Centra la imagen horizontalmente dentro de su contenedor */
+  max-width: 100%;
+  /* Hace que la imagen sea responsiva y se ajuste al contenedor padre */
+  height: auto;
+  /* Mantiene la proporción de aspecto de la imagen */
+  width: 100px;
+  /* Asigna un ancho fijo a todas las imágenes, ajusta según necesites */
+}
+
+
+
+/*****************************************************/
+
+.tituloP {
+  color: #333; /* Gris oscuro */
+  font-size: 4rem;
+}
+
+
+
+.first-character, .last-character {
+  color: differentColor; /* Replace with your desired color */
+}
+
+.first-character {
+  color: blue; /* Example color for the first character */
+}
+
+.last-character {
+  color: blue; /* Example color for the last character */
+}
+
+
+/*****************************************************/
+
+
+
+
+
+
+
+/***************************************************** I - Barra de navegacion *****************************************************/
+
+nav {
+ /* display: flex;*/
+  justify-content: flex-start;
+  background: orangered;
+  margin-left: 25px;
+  padding: 1%;
+  padding-left: 0;
+  letter-spacing: 1px;   /* Incrementa el espacio entre caracteres */
+  word-spacing: 40px;     /* Incrementa el espacio entre palabras */
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 2px;
+}
+
+nav a {
+
+  color: white;
+  font-weight: lighter;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+/***************************************************** F - Barra de navegacion *****************************************************/
+
+
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #FFF; /* Blanco */
+}
+
+.laptop-image {
+  display: inline-block;
+  justify-content: center;
+  max-width: 30%;
+  height: auto;
+}
+
+
+/***************************************************** i - Main *****************************************************/
+
+.fondoprimario {
+  background-color: silver;
+
+}
+
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 90px;
+}
+
+
+.productos li {
+  display: inline-block;
+  text-align: center;
+  background-color: red;
+  width: 20%;
+  vertical-align: top;
+  margin: 2% 1.5%;
+  box-sizing: border-box;
+  /***/
+  border: 1px solid #000;
+  border-radius: 2px;
+  background-color: white;
+  /***/
+}
+
+.dispo {
+  margin: 1px;
+  width: 150px;
+}
+
+.carrito {
+  margin: 5px;
+  width: 80%;
+  max-width: 10%;
+}
+
+
+.productos li:hover {
+  border-color: orangered;
+}
+
+.productos li:active {
+  border-color: #088c19;
+
+}
+
+.productos h2 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.productos li:hover h2 {
+  font-size: 40px;
+}
+
+
+.prod_Precio {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+
+
+/*
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: silver;
+}
+
+.article {
+  width: 30%;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  background: white;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+  color: white;
+}
+
+.article h3 {
+  margin-top: 0;
+}
+*/
+
+/***************************************************** I - RedesSociales *****************************************************/
+
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  background-color: silver;
+}
+
+.image-row img {
+  max-width: 40px; /* Ancho máximo para las imágenes */
+  height: auto; /* Altura ajustada automáticamente */
+  margin: 0 10px; /* Espacio entre las imágenes */
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+/***************************************************** I - RedesSociales *****************************************************/
+
+
+
+/***************************************************** I - Footer *****************************************************/
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.footer-column h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column li {
+  color: #777;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/***************************************************** F - Footer *****************************************************/

@@ -1,0 +1,72 @@
+*{
+    padding:0%;
+    margin: 0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(198, 251, 133);
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content:center;
+}
+
+header>h1{
+    line-height: 15vh;
+}
+header>img{
+    object-fit: cover;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(112, 195, 29);
+}
+nav p,a{
+    padding-left: 1%;
+    color: azure;
+    margin: 0.5%;
+}
+.imgPrin{
+    width: 100%;
+}
+/*comienzo planes*/
+.planes>section{
+    margin-top: 4%;
+    padding: 20px;
+    border-radius: 28px 0px 28px 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.art1{
+    border: 6px solid;
+    border-color: rgb(34, 182, 14);
+    background-color: rgb(133, 243, 48);
+}
+.art2{ 
+    border: 6px solid;
+    border-color: rgb(182, 157, 14);
+    background-color: rgb(240, 243, 48);
+}
+.art3{ 
+    border: 6px solid;
+    border-color: rgb(14, 70, 182);
+    background-color: rgb(163, 210, 237);
+}
+/*final planes*/
+/*comienzo opiniones*/
+.opiniones{
+    margin-top: 8%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.opiniones>section{
+    padding: 20px;
+    background-color: rgb(105, 105, 105);
+}
+
+/*final opiniones*/

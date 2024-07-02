@@ -1,0 +1,45 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+header{
+    height: 12vh;
+    line-height: 12vh;
+    padding-left: 20px;
+    background-color:black;
+    color: aliceblue;
+}
+
+h1{
+    position: absolute;
+    right: 4%;
+}
+div{
+    display: flex;
+    background-color:aqua;
+    height: 88vh;
+}
+
+section{
+    text-align: center;
+    padding: 20px;
+}
+.art1{
+    background-color: bisque;
+}
+.art2{
+    background-color: rgb(200, 236, 102);
+}
+.art3{
+    background-color:rgb(148, 214, 214);
+}
+h2{
+    margin-top:5%;
+}
+img{
+    height: 40vh;
+    width: 100%;
+}
